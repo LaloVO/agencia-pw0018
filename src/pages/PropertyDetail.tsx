@@ -17,7 +17,7 @@ const PropertyDetail = () => {
     enabled: !!id,
   });
 
-  const whatsappNumber = user?.telefono_usuario?.replace(/\D/g, '') ?? '528441651652';
+  const whatsappNumber = user?.telefono_usuario?.replace(/\D/g, '') ?? '5210000000000';
   const whatsappMsg = property
     ? encodeURIComponent(`Hola, me interesa la propiedad: ${property.nombre}`)
     : '';
@@ -63,7 +63,7 @@ const PropertyDetail = () => {
   return (
     <>
       <Helmet>
-        <title>{property.nombre} | {user?.nombre_usuario ?? 'Iris Medina RN'}</title>
+        <title>{property.nombre} | {user?.nombre_usuario ?? 'Agencia'}</title>
         <meta name="description" content={property.descripcion ?? property.nombre} />
       </Helmet>
 

@@ -55,7 +55,7 @@ const MapPage = () => {
   return (
     <>
       <Helmet>
-        <title>Mapa de Propiedades | Iris Medina RN</title>
+        <title>Mapa de Propiedades | Agencia</title>
         <meta
           name="description"
           content="Explora nuestro catálogo de propiedades en el mapa interactivo de Saltillo y la Región Sureste de Coahuila."

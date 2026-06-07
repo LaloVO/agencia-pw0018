@@ -10,10 +10,10 @@ const PropertiesPage = () => {
   return (
     <>
       <Helmet>
-        <title>Propiedades | Iris Medina RN</title>
+        <title>Propiedades | Agencia</title>
         <meta
           name="description"
-          content="Explora el catálogo de propiedades en renta y venta gestionadas por Iris Medina RN en Saltillo y la Región Sureste de Coahuila."
+          content="Explora el catálogo de propiedades en renta y venta gestionadas por Agencia en Saltillo y la Región Sureste de Coahuila."
         />
       </Helmet>
 

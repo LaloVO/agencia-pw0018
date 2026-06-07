@@ -16,7 +16,7 @@ const ProfileSection = () => {
     return () => obs.disconnect();
   }, []);
 
-  const whatsappNumber = user?.telefono_usuario?.replace(/\D/g, '') ?? '528441651652';
+  const whatsappNumber = user?.telefono_usuario?.replace(/\D/g, '') ?? '5210000000000';
   const whatsappUrl = `https://wa.me/${whatsappNumber}`;
 
   return (
@@ -30,8 +30,8 @@ const ProfileSection = () => {
             }`}
           >
             <img
-              src={user?.imagen_perfil_usuario ?? '/iris-profile.png'}
-              alt={user?.nombre_usuario ?? 'Iris Medina RN'}
+              src={user?.imagen_perfil_usuario ?? '/agent-avatar.svg'}
+              alt={user?.nombre_usuario ?? 'Agencia'}
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-navy/80 hidden md:block" />
@@ -48,7 +48,7 @@ const ProfileSection = () => {
               Tu Asesora de Confianza
             </p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-white mb-6 leading-tight">
-              {user?.nombre_usuario ?? 'Iris Medina RN'}
+              {user?.nombre_usuario ?? 'Agencia'}
             </h2>
             <p className="font-sans text-white/70 text-sm md:text-base leading-relaxed mb-8 max-w-md">
               Especialista en asesoría inmobiliaria con respaldo jurídico en Saltillo y la Región Sureste de Coahuila.

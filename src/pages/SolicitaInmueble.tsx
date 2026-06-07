@@ -10,7 +10,7 @@ export default function SolicitaInmueble() {
   return (
     <>
       <Helmet>
-        <title>Búsqueda Inteligente | {user?.nombre_usuario ?? "Iris Medina RN"}</title>
+        <title>Búsqueda Inteligente | {user?.nombre_usuario ?? "Agencia"}</title>
         <meta
           name="description"
           content="Completa nuestra solicitud inteligente de 6 pasos para encontrar tu propiedad ideal en Saltillo y la Región Sureste de Coahuila."

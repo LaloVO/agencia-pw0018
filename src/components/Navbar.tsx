@@ -39,7 +39,7 @@ const Navbar = () => {
         to="/"
         className={`font-serif text-2xl md:text-3xl italic tracking-tight z-50 transition-colors ${baseClasses}`}
       >
-        {site?.site_name ?? 'Iris Medina RN.'}
+        {site?.site_name ?? 'Agencia.'}
       </Link>
 
       {/* Desktop */}

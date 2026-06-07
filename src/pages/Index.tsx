@@ -12,7 +12,7 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Iris Medina RN | Asesoría Inmobiliaria con Respaldo Jurídico</title>
+        <title>Agencia | Asesoría Inmobiliaria con Respaldo Jurídico</title>
         <meta
           name="description"
           content="Renta tu inmueble de forma segura. Asesoría inmobiliaria profesional con respaldo jurídico en Saltillo y la Región Sureste de Coahuila."

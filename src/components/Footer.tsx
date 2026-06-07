@@ -3,7 +3,7 @@ import { useSiteUser } from '@/hooks/useSiteUser';
 
 const Footer = () => {
   const { user } = useSiteUser();
-  const phone = user?.telefono_usuario?.replace(/\D/g, '') ?? '528441651652';
+  const phone = user?.telefono_usuario?.replace(/\D/g, '') ?? '5210000000000';
 
   return (
     <footer className="bg-navy pt-20 pb-12 px-6 md:px-12 text-white">
@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-12">
           <div>
             <Link to="/" className="font-serif text-3xl italic mb-6 block text-white">
-              Iris Medina RN.
+              Agencia.
             </Link>
             <p className="font-sans text-sm text-white/60 max-w-sm leading-relaxed">
               Asesoría inmobiliaria con respaldo jurídico. Tu patrimonio, nuestra prioridad.
@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-white/10 text-[10px] text-white/40 uppercase tracking-wide flex flex-col sm:flex-row justify-between gap-4">
-          <span>© 2025 Iris Medina RN — Inmobiliaria con respaldo jurídico</span>
+          <span>© 2025 Agencia — Inmobiliaria con respaldo jurídico</span>
           <span>Poliza Jurídica de Arrendamiento</span>
         </div>
       </div>
